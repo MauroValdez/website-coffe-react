@@ -1,35 +1,80 @@
 :root {
-  --header-height: ;
+  --header-height:5rem;
 
-  --first-color: ;
-  --first-color-light: ;
-  --title-color: ;
-  --text-color: ;
-  --bg-color: ;
-  --container-color: ;
-  --hsla: ;
+  --first-color: hsl(27, 34%, 58%);
+  --first-color-light: hsl(42, 13%, 34%);
+  --title-color: hsl(0, 0%, 100%);
+  --text-color: hsl(0, 0%, 8%);
+  --container-color: hsl(0, 0%, 6%);
+  --hsla: hsla(0, 0%, 0%, 0.75);
 
-  --body-font: ;
-  --second-font: ;
+  --body-font: 'Kanit', sans-serif;
+  --second-font: 'Lobster Two', system-ui;
 
-  --biggest-font-size: ;
-  --bigger-font-size: ;
-  --big-font-size: ;
-  --h1-font-size: ;
-  --h2-font-size: ;
-  --h3-font-size: ;
-  --largest-font-size: ;
-  --larger-font-size: ;
-  --large-font-size: ;
-  --normal-font-size: ;
+  --biggest-font-size: 4.15rem;
+  --bigger-font-size: 3.15rem;
+  --big-font-size: 2.5rem;
+  --h1-font-size: 1.8rem;
+  --h2-font-size: 1.7rem;
+  --h3-font-size: 1.5rem;
+  --largest-font-size: 1.35rem;
+  --larger-font-size: 1.2rem;
+  --large-font-size: 1.1rem;
+  --normal-font-size: 1rem;
 
-  --weight-400: ;
-  --weight-500: ;
-  --weight-600: ;
-  --weight-700: ;
+  --weight-400: 400;
+  --weight-500: 500;
+  --weight-600: 600;
+  --weight-700: 700;
 
-  --radius: ;
+  --radius: .5rem;
 
-  --transition: ;
+  --transition: ease-in-out;
 }
 
+* {
+  min-width: 0;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+img, video, svg {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+body, input, textarea {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  min-height: 100dvh;
+}
+body {
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+  font-family: var(--second-font);
+  font-weight: var(--weight-400);
+  color: var(--title-color);
+}
+p {
+  text-wrap: pretty;
+  line-height: 1.8;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+input, textarea {
+  border: none;
+  outline: none;
+}

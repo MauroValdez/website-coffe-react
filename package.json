@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/kanit": "^5.0.20",
+    "@fontsource/lobster-two": "^5.0.19",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
