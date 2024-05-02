@@ -100,7 +100,7 @@ input, textarea {
   color: var(--first-color);
 }
 .section {
-  padding-block: 7rem;
+  padding-top: 8rem;
 }
 .section__title {
   font-size: var(--big-font-size);
@@ -114,4 +114,8 @@ input, textarea {
   font-size: var(--h2-font-size);
   letter-spacing: 2px;
   margin-bottom: .5rem;
+}
+.section-center {
+  text-align: center;
+  margin-bottom: 2rem;
 }
