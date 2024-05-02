@@ -4,7 +4,8 @@
   --first-color: hsl(27, 34%, 58%);
   --first-color-light: hsl(42, 13%, 34%);
   --title-color: hsl(0, 0%, 100%);
-  --text-color: hsl(0, 0%, 8%);
+  --text-color: hsl(0, 0%, 67%);
+  --bg-color: hsl(0, 0%, 8%);
   --container-color: hsl(0, 0%, 6%);
   --hsla: hsla(0, 0%, 0%, 0.75);
 
@@ -77,4 +78,9 @@ ul {
 input, textarea {
   border: none;
   outline: none;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
