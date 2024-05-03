@@ -8,7 +8,7 @@ import Header from './layout/Header/Header'
 import Home from './layout/Home/Home'
 import About from './layout/About/About'
 import Features from './layout/Features/Features'
-
+import Menu from './layout/Menu/Menu'
 function App() {
   return (
     <>
@@ -16,6 +16,8 @@ function App() {
       <Home />
       <About />
       <Features />
+      <Menu />
+      <section className="section"></section>
     </>
   )
 }
